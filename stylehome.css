@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+:root {
+  --logo-initial-color: #242933;
+  --vivo-blue: #415fff;
+  --background-white:#FEFEFE;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+}
+body {
+  width: 100%;
+  background-color: var(--background-white)
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 13rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-white);
+  height: 5.375rem;
+}
+
+/* logo */
+
+.logo-div{
+  width: 5.7rem;
+}
+svg{
+  width: 100%;
+}
+#common-path {
+  fill: var(--logo-initial-color);
+  transition: fill 0.4s ease-in; 
+}
+
+.logo-div:hover #common-path {
+  fill: var(--vivo-blue);
+}
+/* sectionids */
+
+.sectionids-ul {
+  display: flex;
+  flex-direction: row;
+  transition: color 0.4s;
+}
+.sectionids-ul li {
+  padding: 0 1.25vw;
+}
+.sectionids-ul li a {
+  font-size: 14px;
+  color: var(--logo-initial-color);
+  transition: color 0.2s ease 0s;
+}
+.sectionids-ul li a:hover {
+  color: var(--vivo-blue);
+}
+
+/* icons-nav */
+.icon-div ul{
+  display: flex;
+  flex-direction: row;
+}
+.icon-div ul li{
+  padding: 0 1.2vw;
+}
+.icon-div ul li svg {
+  width: 24px; 
+  transition: fill 0.3s; 
+}
+.icon-div ul li:hover #common-path {
+  fill: var(--vivo-blue);
+}
+
