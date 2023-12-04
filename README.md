@@ -15,7 +15,7 @@ The goal is to replicate the Vivo website's UI collectively. Each member will co
 
 ### Team Members
 
-- **Suvansh Sharma** (Project About Section) 
+- **Suvansh Sharma** (Project About Section) <br>
 [![Portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Suvansh-7harma)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com)
 
