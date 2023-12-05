@@ -111,7 +111,7 @@ body {
     }
 
     .content .link span {
-        font-size: 1vw;
+        font-size: medium;
         line-height: 2vw;
     }
 
@@ -332,7 +332,6 @@ body {
     color: #575C66;
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
 
@@ -402,7 +401,7 @@ body {
     .content .content-wrap .news-wrap ul li:first-of-type a .content-box .date {
         position: absolute;
         width: 100%;
-        bottom: 0;
+        bottom: auto;
         font-size: 20px;
         line-height: 28px
     }
@@ -539,7 +538,7 @@ body {
 }
 
 .content .top-section .top-content-box .auxiliaryTitle {
-    font-size: 1vw;
+    font-size: 1.3vw;
     line-height: 2vw;
     margin-bottom: 5vw;
     max-width: 26vw
