@@ -1,5 +1,11 @@
 
-
+:root {
+    --main-text-color: #575C66;
+    --secondary-text-color: #242933;
+    --background-color: #fff;
+    --accent-color: #415fff;
+    --body-background-color: #f5f7fa;
+}
 /* Global styles */
 * {
     box-sizing: border-box;
@@ -67,7 +73,7 @@ body {
     display: block;
     font-size: 20px;
     line-height: 28px;
-    color: #242933 !important;
+    color: var(--secondary-text-color) !important;
     transition: color .4s;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -124,7 +130,7 @@ body {
 
 @media screen and (min-width:769px) {
     .content .link:hover span {
-        color: #415fff !important;
+        color: var(--accent-color) !important;
     }
 
     .content .link:hover:before {
@@ -188,7 +194,7 @@ body {
     font-size: 60px;
     line-height: 76px;
     max-width: 700px;
-    color: #242933
+    color: var(--secondary-text-color);
 }
 
 .content .top-section .top-content-box .auxiliaryTitle {
@@ -196,7 +202,7 @@ body {
     line-height: 32px;
     margin-bottom: 80px;
     max-width: 575px;
-    color: #242933
+    color: var(--secondary-text-color);
 }
 
 .content .content-wrap {
@@ -215,7 +221,7 @@ body {
 .content .content-wrap .photo-wrap {
     position: relative;
     padding-top: 50%;
-    background: #fff;
+    background: var(--background-color);
     border-radius: 24px;
     overflow: hidden;
 }
@@ -288,7 +294,7 @@ body {
     height: 100%;
     position: relative;
     padding-top: 60%;
-    background-color: #fff;
+    background-color: var(--background-color);
     border-radius: 24px;
     overflow: hidden;
     opacity: 0;
@@ -311,13 +317,13 @@ body {
 }
 
 .content .content-wrap .news-wrap ul li a .content-box .type {
-    display: none
+    display: none;
 }
 
 .content .content-wrap .news-wrap ul li a .content-box .title {
     font-size: 20px;
     line-height: 24px;
-    color: #242933;
+    color: var(--secondary-text-color);
     margin-bottom: 12px;
     display: box;
     box-orient: vertical;
@@ -329,10 +335,10 @@ body {
 .content .content-wrap .news-wrap ul li a .content-box .date {
     font-size: 16px;
     line-height: 18px;
-    color: #575C66;
+    color: var(--main-text-color);
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 
 .content .content-wrap .news-wrap ul li a .content-box .date span:after {
@@ -383,7 +389,7 @@ body {
         display: block;
         font-size: 20px;
         line-height: 28px;
-        color: #242933;
+        color: var(--secondary-text-color);
         margin-bottom: 2px;
         display: box;
         box-orient: vertical;
@@ -394,8 +400,8 @@ body {
     .content .content-wrap .news-wrap ul li:first-of-type a .content-box .title {
         font-size: 32px;
         line-height: 48px;
-        color: #242933;
-        margin-bottom: 0
+        color: var(--secondary-text-color);
+        margin-bottom: 0;
     }
 
     .content .content-wrap .news-wrap ul li:first-of-type a .content-box .date {
@@ -447,14 +453,14 @@ body {
 .content .content-wrap .join-us .text p {
     font-size: 40px;
     line-height: 60px;
-    color: #242933;
+    color: var(--secondary-text-color);
     margin-bottom: 8px
 }
 
 .content .content-wrap .join-us .text a {
     font-size: 20px;
     line-height: 28px;
-    color: #242933
+    color: var(--secondary-text-color)
 }
 
 .content .content-wrap .life-vivo {
@@ -467,7 +473,7 @@ body {
     width: 48%;
     border-radius: 24px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--background-color)
 }
 
 .content .content-wrap .life-vivo>div .img {
@@ -493,7 +499,7 @@ body {
     height: 40px;
     font-size: 30px;
     line-height: 40px;
-    color: #242933;
+    color: var(--secondary-text-color);
     margin-bottom: 7px;
     overflow: hidden;
     white-space: nowrap;
@@ -507,7 +513,7 @@ body {
     height: 48px;
     overflow: hidden;
     margin-bottom: 21px;
-    color: #575C66;
+    color: var(--main-text-color);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -555,7 +561,7 @@ body {
     height: 40px;
     font-size: 30px;
     line-height: 40px;
-    color: #242933;
+    color: var(--secondary-text-color);
     margin-bottom: 7px;
     overflow: hidden;
     white-space: nowrap;
@@ -569,7 +575,7 @@ body {
     height: 48px;
     overflow: hidden;
     margin-bottom: 21px;
-    color: #575C66;
+    color: var(--main-text-color);
     display: flex;
     flex-direction: column;
     overflow: hidden;
