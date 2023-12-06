@@ -121,6 +121,7 @@ main {
   flex-wrap: wrap;
   border-radius: 30px;
   background-color: var(--white);
+  justify-content: space-around;
 }
 
 .support-icons-mainBox {
@@ -166,6 +167,7 @@ p {
   text-align: center;
   margin-top: 7rem;
   margin-bottom: 3rem;
+  font-size: x-large;
 }
 .support-service-main {
   width: 100%;
@@ -256,6 +258,7 @@ p {
 .service-Activity-Header {
   margin: 5rem 0;
   text-align: center;
+  font-size: x-large;
 }
 .service-cards {
   display: flex;
@@ -301,6 +304,7 @@ p {
 .support-faqs-heading {
   margin: 3rem 0;
   text-align: center;
+  font-size: x-large;
 }
 .support-faqs {
   width: 100%;
@@ -344,6 +348,7 @@ p {
 .support-contactUs-heading {
   margin: 5rem 0;
   text-align: center;
+  font-size: x-large;
 }
 .support-contactUs-container {
   display: flex;
@@ -352,6 +357,7 @@ p {
   flex-wrap: wrap;
   gap: 5px;
   background-color: var(--white);
+  justify-content: space-evenly;
 }
 .support-contactUs-icon-content {
   display: flex;
@@ -404,10 +410,11 @@ p {
   .support-banner > h1 {
     text-align: center;
     font-size: 2rem;
+    font-size: x-large;
   }
   .support-icons-text-size {
     font-size: 1.0rem;
-}
+  }
   .support-banner>form {
     width: 80%;
     height: 2.2rem;
@@ -416,17 +423,17 @@ p {
   }
   .support-icons-symbol, p {
     font-size: medium;
-}
-.support-qurie {
-  font-size: medium;
-  padding-top: 2rem;
-} 
+  }
+  .support-qurie {
+    font-size: medium;
+    padding-top: 2rem;
+  } 
   .support-icons-symbol {
     width: 10rem;
     height: 8rem;
     align-items: center;
     justify-content: center;
-}
+  }
   .support-banner>form>input{
     padding: 0.5rem;
     
