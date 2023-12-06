@@ -8,6 +8,7 @@
 }
 body {
   width: 100vw;
+  background-color: var(--background-total);
 }
 :root {
   --background-total: #f5f7fa;
@@ -102,6 +103,14 @@ main {
   background-color: var(--background-total);
   transform: translate(10px, -227px);
   border-radius: 30px;
+  position: absolute;
+}
+.for-height{
+  height: 230rem;
+  position: relative;
+  width: 100%;
+  background-color: var(--background-total);
+  z-index: -1;
 }
 
 /* support-icons start*/
@@ -269,6 +278,8 @@ p {
   background-color: bisque;
   overflow: hidden;
   transition: background-size 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .service-card-image:hover {
@@ -457,5 +468,8 @@ p {
   .support-contactus-text {
     font-size: 2vh;
     line-height: 3vh;
+  }
+  .for-height{
+    height: 358rem;
   }
 }
