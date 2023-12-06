@@ -1,3 +1,3 @@
 [submodule "path_to_submodule"]
   path = tree/main/Srijan
-  url = https://github.com/muzammilx07/vivo/
+  url = https://github.com/muzammilx07/vivo.git
