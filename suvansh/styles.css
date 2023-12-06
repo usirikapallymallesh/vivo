@@ -1,4 +1,90 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+:root {
+  --logo-initial-color: #242933;
+  --vivo-blue: #415fff;
+  --background-white:#FEFEFE;
+  --background-white-2:#F5F7FA;
+  --footer-bg:#242933;
+  --text-grey:#8A8F99;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+  overflow-x: hidden;
+}
+body {
+  width: 100vw;
+  background-color: var(--background-white)
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+/* navbar-start */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 13rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-white);
+  height: 5.375rem;
+  position: fixed;
+  z-index: 10000;
+}
+/* logo */
+.logo-div{
+  width: 5.7rem;
+}
+svg{
+  width: 100%;
+}
+.logo-div #common-path {
+  fill: var(--logo-initial-color);
+  transition: fill 0.4s ease-in; 
+}
+.logo-div:hover #common-path {
+  fill: var(--vivo-blue);
+}
+/* sectionids */
+.sectionids-ul {
+  display: flex;
+  flex-direction: row;
+  transition: color 0.4s;
+}
+.sectionids-ul li {
+  padding: 0 1.25vw;
+}
+.sectionids-ul li a {
+  font-size: 14px;
+  color: var(--logo-initial-color);
+  transition: color 0.2s ease 0s;
+}
+.sectionids-ul li a:hover {
+  color: var(--vivo-blue);
+}
+/* icons-nav */
+.icon-div ul{
+  display: flex;
+  flex-direction: row;
+}
+.icon-div ul li{
+  padding: 0 1.2vw;
+}
+.icon-div ul li svg {
+  width: 24px; 
+  transition: fill 0.3s; 
+}
+.icon-div ul li:hover #common-path {
+  fill: var(--vivo-blue);
+}
+/* navbar-end */
 :root {
     --main-text-color: #575C66;
     --secondary-text-color: #242933;
