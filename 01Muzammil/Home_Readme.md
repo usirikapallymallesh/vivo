@@ -10,7 +10,7 @@ Crafted an impressive UI replica of VIVO website's Home Section as a team captai
 In crafting the VIVO website Home Section UI replica, a strategic blend of semantic and non-semantic HTML tags was employed. Semantic tags, including <header>, <nav>, <main>, <section>, <article>, and <footer>, were meticulously utilized to convey the document's structure and enhance accessibility. Non-semantic tags like <div>, <span> played a pivotal role in styling and layout. To augment the footer, an SVG element was incorporated, ensuring both aesthetics and accessibility. Basic tags like <h1>, <p>, and <a> were leveraged for content clarity. This thoughtful integration ensures a well-structured, visually appealing, and user-friendly interface.
 
 ## Images of the Section
-![Alt Text](relative/path/to/image.jpg)
+![Alt Text](./assets/home/screenshots/1.png)
 ![Alt Text](relative/path/to/image.jpg)
 ![Alt Text](relative/path/to/image.jpg)
 ![Alt Text](relative/path/to/image.jpg)
