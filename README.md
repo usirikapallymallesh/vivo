@@ -75,4 +75,4 @@ Debugging CSS and HTML issues using browser developer tools was essential. Famil
 
 Feel free to adapt and modify this template based on the specific challenges faced during the development of your web page.
 
-![First Impressions](https://imgur.com/7TM2jx5)
+![](https://imgur.com/7TM2jx5)
