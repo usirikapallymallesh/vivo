@@ -76,3 +76,26 @@ Debugging CSS and HTML issues using browser developer tools was essential. Famil
 Feel free to adapt and modify this template based on the specific challenges faced during the development of your web page.
 
 ![](https://i.imgur.com/7TM2jx5.png)
+
+## E-Store Section:
+### - Srijan Samanta
+## Over-view
+
+Deliberately shaping the e-store segment of our webpage emerged as a project showcasing our expertise. The outcome is a visually captivating and user-friendly interface, guaranteeing a smooth and enjoyable online shopping venture. 
+
+![Imgur](https://i.imgur.com/FAu03Uc.png)
+
+## Support Section:
+### - Krishna
+## Over-view
+
+Thoughtfully curating the support section of our webpage was a project that highlighted our expertise. The result is an empathetic and efficient interface, ensuring seamless assistance and user satisfaction.
+![Imgur](https://i.imgur.com/uEElzdh.png)
+
+## About Section:
+### - Suvansh Sharma
+## Over-view
+Strategically crafting the about section of our webpage was a project that showcased our expertise. The outcome is an engaging and informative interface, providing users with insights into our brand story and values.
+![Imgur](https://i.imgur.com/oCOGxXy.png)
+
+
