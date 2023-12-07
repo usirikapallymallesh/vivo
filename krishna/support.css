@@ -121,6 +121,7 @@ main {
   flex-wrap: wrap;
   border-radius: 30px;
   background-color: var(--white);
+  justify-content: space-around;
 }
 
 .support-icons-mainBox {
@@ -166,6 +167,7 @@ p {
   text-align: center;
   margin-top: 7rem;
   margin-bottom: 3rem;
+  font-size: x-large;
 }
 .support-service-main {
   width: 100%;
@@ -256,6 +258,7 @@ p {
 .service-Activity-Header {
   margin: 5rem 0;
   text-align: center;
+  font-size: x-large;
 }
 .service-cards {
   display: flex;
@@ -301,6 +304,7 @@ p {
 .support-faqs-heading {
   margin: 3rem 0;
   text-align: center;
+  font-size: x-large;
 }
 .support-faqs {
   width: 100%;
@@ -344,6 +348,7 @@ p {
 .support-contactUs-heading {
   margin: 5rem 0;
   text-align: center;
+  font-size: x-large;
 }
 .support-contactUs-container {
   display: flex;
@@ -352,6 +357,7 @@ p {
   flex-wrap: wrap;
   gap: 5px;
   background-color: var(--white);
+  justify-content: space-evenly;
 }
 .support-contactUs-icon-content {
   display: flex;
@@ -394,27 +400,55 @@ p {
   section > ul {
     justify-content: center;
     position: relative;
-    width: 10rem;
+    width: 15rem;
     font-size: medium;
     justify-content: left;
   }
   .main-container {
-    transform: translate(10px, -33px);
+    transform: translate(7px, -31px);
   }
   .support-banner > h1 {
     text-align: center;
     font-size: 2rem;
+    font-size: x-large;
+  }
+  .support-icons-text-size {
+    font-size: 1.0rem;
+  }
+  .support-banner>form {
+    width: 80%;
+    height: 2.2rem;
+    padding: 0.5rem;
+    
+  }
+  .support-icons-symbol, p {
+    font-size: medium;
+  }
+  .support-qurie {
+    font-size: medium;
+    padding-top: 2rem;
+  } 
+  .support-icons-symbol {
+    width: 10rem;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .support-banner>form>input{
+    padding: 0.5rem;
+    
   }
   .support-icons {
     width: 100%;
+    justify-content: space-around;
   }
   .support-icons-mainBox {
-    width: 50%;
+    width: 8.1rem;
   }
   .support-banner {
     padding-top: 10rem;
     font-size: small;
-    height: 91vh;
+    height: 27rem;
     gap: 1.2rem;
   }
   .support-service-main-content {
@@ -424,7 +458,10 @@ p {
   }
   .support-service-main-image {
     width: 100%;
-    border-radius: 30px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
     object-fit: inherit;
   }
   .service-Activity {
@@ -466,10 +503,18 @@ p {
     width: 100%;
   }
   .support-contactus-text {
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 0.85rem;
+    line-height: 0.9rem;  
   }
   .for-height{
-    height: 358rem;
+    height: 343rem;
   }
+  /* for tab */
+  @media screen and (min-width: 700px) {
+    .support-banner {
+      padding-top: 5rem;
+      background-color: wheat;
+      height: 12655rem;
+    }
+
 }
