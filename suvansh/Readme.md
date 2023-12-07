@@ -18,26 +18,31 @@ The emphasis on semantic HTML not only improves code readability but also contri
 ## Screenshots
 
 ### Header Section
-![Header Section](/screenshots/header.png)
+![Header Section]![header](https://github.com/muzammilx07/vivo/assets/139106136/1720a8d1-1785-402e-9533-9bde823a1ad2)
 
 
 Caption: Screenshot of the header section with navigation links.
 
+
 ### Learn More Section
-![Learn More Section](/screenshots/learn-more.png)
+![Learn More Section]![lear-more](https://github.com/muzammilx07/vivo/assets/139106136/bb8602b3-a313-4074-bf26-df6f660253d0)
+
 Caption: Screenshot of the "Learn More" section with detailed information.
 
 ### News-1 Section
-![News-1 Section](/screenshots/news-1.png)
+![News-1 Section]![news-1](https://github.com/muzammilx07/vivo/assets/139106136/c8c12b98-02d3-495f-8c26-8a5f4be9cc86)
 Caption: Screenshot of the "News-1" section with the latest news.
 
+
 ### News-2 Section
-![News-2 Section](/screenshots/news-2.png)
+![News-2 Section]![new-2](https://github.com/muzammilx07/vivo/assets/139106136/e4eabe53-5962-4469-9c76-fd673a57187a)
 Caption: Screenshot of the "News-2" section with additional news content.
 
+
 ### Culture Section
-![Culture Section](/screenshots/culture.png)
-Caption: Screenshot of the "Culture" section with cultural highlights.
+![Culture Section]![culture](https://github.com/muzammilx07/vivo/assets/139106136/6a189715-86a6-4ead-833f-ae9e78d494e1)
+Caption: Screenshot of the "Culture" section wi
+th cultural highlights.
 
 Feel free to explore the repository for more detailed visuals and code implementation.
 
