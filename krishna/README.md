@@ -3,7 +3,7 @@
 
 Hey This is Krishna! 🌟 Exciting news! 🚀 I've been cruising through the coding universe with the Geekster squad! 💻🌌 Fueled by curiosity and a tech passion, every day is a new adventure! 🔍 Ready to dive deep into the world of bits and bytes, turning code into magic! ✨ #GeeksterLife is a rollercoaster of challenges and victories! 🎢 Let's rock the coding cosmos together! 🌠 How's your coding journey going? Any epic moments to share? 🚀💬 Keep shining, Geekster! 🌟💻 #CodeOn #GeeksterLife
 
-- **Krishna** (Project Support Section) 
+- **Mallesh** (Project Support Section) 
 
 [![Portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/USIRIKAPALLYMALLESH)
 
