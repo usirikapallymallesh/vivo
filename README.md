@@ -11,7 +11,7 @@ Geekster has assigned a major project to a team of 4 members:
 
 - **Mohammed Muzammil Shareef (Lead)**
 - Suvansh Sharma
-- Krishna
+- Mallesh
 - Srijan Samanta
 
 
@@ -86,7 +86,7 @@ Deliberately shaping the e-store segment of our webpage emerged as a project sho
 ![Imgur](https://i.imgur.com/FAu03Uc.png)
 
 ## Support Section:
-### - Krishna
+### - Mallesh
 ## Over-view
 
 Thoughtfully curating the support section of our webpage was a project that highlighted our expertise. The result is an empathetic and efficient interface, ensuring seamless assistance and user satisfaction.
